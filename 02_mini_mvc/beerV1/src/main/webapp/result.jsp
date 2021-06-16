@@ -13,12 +13,12 @@
     <title>String Recommended JSP</title>
 </head>
 <body>
-<h1 This is a Jsp page></h1>
+<h1> This is a Jsp page</h1>
 <div>
 <c:forEach var="beer" items="${requestScope.styles}">
-    <h2 ${beer.name}></h2>
-    <h3 the date of it is:${beer.dateofbirth}></h3>
-    <h4 more detail: ${beer.detail}></h4>
+    <h2> ${beer.name}</h2>
+    <h3> the date of it is:${beer.dateofbirth}</h3>
+    <h4>more detail: ${beer.detail}</h4>
 </c:forEach>
 </div>
 </body>
